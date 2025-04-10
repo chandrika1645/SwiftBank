@@ -9,6 +9,16 @@ export const sidebarLinks = [
     route: "/my-banks", 
     label: "My Banks", 
   },
+  {
+    imgURL: "/icons/transaction.svg",
+    route: "/transaction-history",
+    label: "Transaction History",
+  },
+  {
+    imgURL: "/icons/money-send.svg",
+    route: "/payment-transfer",
+    label: "Transfer Funds",
+  },
 ];
 
 export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
